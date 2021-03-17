@@ -42,13 +42,10 @@ body {
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.05s;
+  /* transition: all 0.05s; */
   transition-timing-function: cubic-bezier(0, 1.93, 0.53, 0.99);
 }
 
-.second-hand {
-  /* background: rgb(10, 10, 10); */
-}
 .hour-hand {
-  width: 25%;
+  width: 33%;
 }
